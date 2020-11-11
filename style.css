@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {background-image: url('car bkgnd.jpg');background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Jost';} 
+
+
+.header {margin:.5rem; display: flex;}
+
+    .logotitle {display: flex;
+    padding-left: 2rem;
+    } 
+
+      .logotitle span {font-size: 2rem; padding-top: 1.5rem;}
+
+      .logotitle h1 {padding-left:1rem;}
+
+    .navbox ul {display:flex;
+    list-style: none;
+    margin:0;}
+
+      .navbox li {padding: 1.5rem;
+      width: 40%;}
+
+      .bookapp { background-color: aliceblue;cursor: pointer;
+      position: relative;}
+
+      .drop-down {display: none;
+      position: absolute;
+      top: 61px;
+      left: 0;
+      z-index: 0;
+      background-color: rgb(159, 197, 209);
+      padding: 1.25rem;
+      height: auto;  
+      width: auto;}
+
+      .dropdown li {margin: .5rem;
+      padding: .5rem;}
+
+      .bookapp:hover .drop-down{
+  display: block;
+}
+
+
+
+.herocontainer {margin: 8rem;
+}
+
+.herocontainer h2 {font-size: 1.25rem;
+padding: .5rem;
+color: white;}
+
+.herocontainer a {background-color: rgb(55, 165, 255); text-decoration: none;
+padding: 1rem;
+border-radius: 10px;
+color: black;}
+
+
+.bottomheader {display: flex; background-color: gray;
+height: 6rem;
+font-size: .75rem;
+}
+
+.bottomheader div {;
+padding-left: 4rem;
+padding-right: 4rem;
+padding-top: 1rem;
+padding-bottom: 1rem;}
+
+.bottomheader h1 {font-size: 1rem;
+padding: 0;
+color:rgb(24, 109, 148)}

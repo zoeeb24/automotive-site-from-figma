@@ -1,0 +1,12 @@
+ <div class="degree">
+            <label for="education"> Degree: </label>
+          <select name="education" required> 
+            <option value=""> - - - Select One - - - </option>
+            <option value="associates"> Associates </option>
+            <option value="bachelors"> Bachelors </option>
+            <option value="masters"> Masters </option>
+          </select>
+
+          </div>
+
+          code for fropdown, but form?
