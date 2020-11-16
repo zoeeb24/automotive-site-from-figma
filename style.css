@@ -9,10 +9,11 @@ body {background-image: url('car bkgnd.jpg');background-repeat: no-repeat;
   font-family: 'Jost';} 
 
 
-.header {margin:.5rem; display: flex;}
+.header {margin:0 auto; display: flex;}
 
     .logotitle {display: flex;
     padding-left: 2rem;
+    width:25% auto;
     } 
 
       .logotitle span {font-size: 2rem; padding-top: 1.5rem;}
@@ -27,7 +28,9 @@ body {background-image: url('car bkgnd.jpg');background-repeat: no-repeat;
       width: 40%;}
 
       .bookapp { background-color: aliceblue;cursor: pointer;
-      position: relative;}
+      position: relative;
+      margin: .5rem;}
+
 
       .drop-down {display: none;
       position: absolute;
@@ -49,6 +52,7 @@ body {background-image: url('car bkgnd.jpg');background-repeat: no-repeat;
 
 
 .herocontainer {margin: 8rem;
+width:80%;
 }
 
 .herocontainer h2 {font-size: 1.25rem;
@@ -64,6 +68,7 @@ color: black;}
 .bottomheader {display: flex; background-color: gray;
 height: 6rem;
 font-size: .75rem;
+width:100%;
 }
 
 .bottomheader div {;
@@ -74,4 +79,58 @@ padding-bottom: 1rem;}
 
 .bottomheader h1 {font-size: 1rem;
 padding: 0;
-color:rgb(24, 109, 148)}
+color:rgb(24, 109, 148);}
+
+
+
+@media screen and (max-width: 1024px) {
+
+  .logotitle h1 {font-size: 3rem;}
+   
+      .logotitle span {font-size:3rem;
+      padding-top: 3rem;}
+
+
+  .navbox {width: 75%;
+  padding-top: 2.5rem;}
+
+
+  .bottomheader {justify-content: space-evenly;}
+
+
+  .herocontainer {background-color: rgba(196, 193, 233, 0.7);
+  width:30%;
+  padding: .5rem;
+  border-radius: 10px;
+  }
+  
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+  .logotitle h1 {display: none;} 
+
+
+  .navbox li {padding:0.5;
+  width: 30%;
+  font-size:.75rem;}
+
+
+  .bookapp {display: none;}
+
+
+  .bottomheader div {padding-left: 2rem;
+padding-right: 2rem;
+padding-top: .5rem;
+padding-bottom: .5rem;
+  }
+
+  .herocontainer {width: 50%;
+
+}
+
